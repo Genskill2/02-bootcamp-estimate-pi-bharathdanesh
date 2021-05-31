@@ -1,4 +1,5 @@
 import math
+import random
 import unittest
 
 class TestWallis(unittest.TestCase):
@@ -43,6 +44,6 @@ def monte_carlo(n):
         if d <= 1 :
             c += 1
     return(4*(c/n)) 
-       
+
 if __name__ == "__main__":
     unittest.main()
